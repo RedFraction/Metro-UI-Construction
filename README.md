@@ -4,12 +4,12 @@ Basic constructions for MetroUI writen on php
 Just insert before <!DOCTYPE html>
 
 ```php
-   <?php include "MetroFrame.php";?>
+   <?php include "MetroTiles.php";?>
 ```
 
 And download MetroTiles.php to your project.
 
-#Example
+#Example for Tiles
 For small icon 1x1 -
 ```php
 <?php MetroFrame::getTileSmall("https://github.com/RedFraction", "bg-indigo", "fg-white", "octocat.svg");?>
