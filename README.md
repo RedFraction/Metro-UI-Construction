@@ -1,5 +1,5 @@
 # Metro-UI-Construction
-Basic constructions for MetroUI writen on php
+Basic constructions for MetroUI(https://github.com/olton/Metro-UI-CSS)
 
 Just insert before <!DOCTYPE html>
 
@@ -10,22 +10,24 @@ Just insert before <!DOCTYPE html>
 And download MetroTiles.php to your project.
 
 #Example for Tiles
-For small icon 1x1 -
+For small icon 1x1 - getTile($link, $bgColor, $textColor, $icon);
 ```php
-<?php MetroFrame::getTileSmall("https://github.com/RedFraction", "bg-indigo", "fg-white", "octocat.svg");?>
+<?php MetroTiles::getTileSmall("https://github.com/RedFraction", "bg-indigo", "fg-white", "octocat.svg");?>
 ```
 
-For normal icon 2x2 -
+For normal icon 2x2 - getTile($link, $bgColor, $textColor, $icon, $label);
 ```php
-<?php MetroFrame::getTile("https://github.com/RedFraction", "bg-indigo", "fg-white", "octocat.svg", "GitHub");?>
+<?php MetroTiles::getTile("https://github.com/RedFraction", "bg-indigo", "fg-white", "octocat.svg", "GitHub");?>
 ```
 
-For wide icon 4x2 -
+For wide icon 4x2 - getTile($link, $bgColor, $textColor, $icon, $label);
 ```php
-<?php MetroFrame::getTileWide("https://github.com/RedFraction", "bg-indigo", "fg-white", "octocat.svg", "GitHub");?>
+<?php MetroTiles::getTileWide("https://github.com/RedFraction", "bg-indigo", "fg-white", "octocat.svg", "GitHub");?>
 ```
 
-For large icon 4x4 -
+For large icon 4x4 - getTile($link, $bgColor, $textColor, $icon, $label)
 ```php
-<?php MetroFrame::getTileLarge("https://github.com/RedFraction", "bg-indigo", "fg-white", "octocat.svg", "GitHub");?>
+<?php MetroTiles::getTileLarge("https://github.com/RedFraction", "bg-indigo", "fg-white", "octocat.svg", "GitHub");?>
 ```
+
+#Wait for updates =)
